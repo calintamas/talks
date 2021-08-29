@@ -1,0 +1,39 @@
+{
+  "name": "react-native-toggler",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "17.0.*",
+    "react-dom": "17.0.*",
+    "react-native-web": "0.16.*",
+    "react-scripts": "3.4.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-native": "^4.0.2",
+    "@testing-library/react-hooks": "^7.0.1",
+    "@testing-library/react-native": "^7.2.0",
+    "@types/jest": "^27.0.1",
+    "react-test-renderer": "^17.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "license": "MIT",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
